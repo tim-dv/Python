@@ -35,7 +35,7 @@ print(e)
 # 12) Вывести в одну строку переменные типа String и Integer используя “,” (Запятую)
 name = "Tim"
 age = 36
-print(name, (age))
+print(name, age)
 # 13) Вывести в одну строку переменные типа String и Integer используя “+” (Плюс)
 first = "five"
 second = 24
