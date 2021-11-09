@@ -62,16 +62,20 @@ result_mp_s_root = math.pow(item_1, 1/2)
 print("result_mp_s_root =", result_mp_s_root)
 
 # 19. Присвоить переменной item_1 odd значение
-if item_1 % 2 > 0:
-    item_1 = item_1
-else:
-    item_1 = item_1 + 1
+#if item_1 % 2 > 0:
+#    item_1 = item_1
+#else:
+#    item_1 = item_1 + 1
+if item_1 % 2 == 0:
+    item_1 += 1
 
 # 20. Присвоить переменной item_2 even значение
-if item_2 % 2 == 0:
-    item_2 = item_2
-else:
-    item_2 = item_2 + 1
+#if item_2 % 2 == 0:
+#    item_2 = item_2
+#else:
+#    item_2 = item_2 + 1
+if item_1 % 2 > 0:
+    item_1 += 1
 
 # 21. Создать переменную result_division в которой вы разделите item_1 на item_2.
 result_division = item_1 / item_2
