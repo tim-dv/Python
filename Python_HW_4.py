@@ -107,7 +107,7 @@ for item in range(0, 30):
 #	-- Сделать if если inner_item равен 5, то в inner_count присвоить inner_item.
 #	- За пределами тела предыдущего цикла вывести в консоль (‘-- inner_count =’, inner_count)
 
-#for item in range(0, range_count + 1):
+for item in range(0, range_count + 1):
     print('Step =', item)
     if item == 7:
         inner_count = 0
