@@ -37,6 +37,19 @@ while count < range_count:
     print('Step =', count)
     count += 1
 
+# 8. Сделать цикл while который будет работать пока count < range_count
+# Тело цикла:
+# 8.1 Выводить в консоль (“Step =”, count)
+# 8.2 Переменной count прибавлять 1 с присвоением.
+# 8.3 Сделать if с условием, если count равен 3 то выводить в консоль (“Step =”, count, ‘If body’)
+
+while count < range_count:
+    print('Step =', count)
+    count += 1
+    if count == 3:
+        print('Step =', count, 'If body')
+
+
 # 9. Сделать цикл while который будет работать пока run
 # Тело цикла:
 # 	9.1 Выводить в консоль (“Step =”, count)
@@ -48,7 +61,8 @@ while run:
     print('Step =', count)
     count += 1
     if count == range_count:
-        print('STOP', count)
+        break
+print('STOP', count)
 
 
 #######   ЦИКЛЫ FOR   #######
@@ -93,7 +107,7 @@ for item in range(0, 30):
 #	-- Сделать if если inner_item равен 5, то в inner_count присвоить inner_item.
 #	- За пределами тела предыдущего цикла вывести в консоль (‘-- inner_count =’, inner_count)
 
-for item in range(0, (range_count + 1)):
+#for item in range(0, range_count + 1):
     print('Step =', item)
     if item == 7:
         inner_count = 0
@@ -117,6 +131,5 @@ for item in range(0, 20):
     if 7 < item < 12:
         print('If_item =', item)
         continue
-        break
 print('End_iteration =', item)
 
